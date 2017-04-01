@@ -1,7 +1,8 @@
 {
-  "name": "glimmer-button",
-  "version": "0.0.0",
-  "description": "A brand new Glimmer app.",
+  "name": "tomster-summoner",
+  "version": "0.0.1",
+  "description": "Tomsters on Demand",
+  "author": "Karl Ranna",
   "directories": {
     "doc": "doc",
     "test": "tests"

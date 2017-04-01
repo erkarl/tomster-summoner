@@ -1,3 +1,70 @@
-h1 {
-  color: #444;
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body {
+  background-color: #ffecec;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-container {
+  z-index: 1;
+}
+
+.tomster-count {
+  color: #4f4a4c;
+  font-size: 2rem;
+  font-family: Verdana;
+}
+
+.glimmer-button {
+  outline-color: rgba(202, 7, 99, 0.7);
+  cursor: pointer;
+  border-radius: 0.75rem;
+  background-color: rgba(249,245,255, 0.7);
+  margin-top: 10rem;
+  z-index: 1;
+  border: none;
+  font-family: Verdana;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.6rem 1.5rem #864747;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+
+  &:active {
+    background-color: rgba(202,7,99, 0.7);
+  }
+}
+
+.tomsters-container {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.tomster {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.tomster-svg {
+  width: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
 }
