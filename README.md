@@ -1,7 +1,6 @@
-# glimmer-button
+# Tomster Summoner
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+[tomster-summoner.surge.sh](https://tomster-summoner.surge.sh/)
 
 ## Prerequisites
 
