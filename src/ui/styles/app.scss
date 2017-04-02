@@ -7,6 +7,24 @@ html, body {
   background-color: #ffecec;
 }
 
+.github-link {
+  color: #fff;
+  font-family: Verdana;
+}
+
+.github-link-container {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #191919;
+  height: 2rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
 #app {
   display: flex;
   align-items: center;
