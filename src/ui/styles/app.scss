@@ -17,11 +17,16 @@ html, body {
   z-index: 1;
 }
 
-.installing {
+installing {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+  .tomster-svg {
+    width: 20rem;
+    height: 20rem;
+  }
 }
 
 .tomster-count {

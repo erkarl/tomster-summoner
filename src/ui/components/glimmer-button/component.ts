@@ -17,4 +17,8 @@ export default class GlimmerButton extends Component {
     this.toms.push(1);
     this.toms = this.toms;
   }
+
+  didInsertElement() {
+    document.getElementsByTagName('installing')[0].remove();
+  }
 }
