@@ -8,5 +8,8 @@
       "sizes": "144x144"
     }
   ],
-  "start_url": "index.html?launcher=true"
+  "start_url": "index.html?launcher=true",
+  "background_color": "#ffecec",
+  "theme_color": "#ffecec",
+  "display": "standalone"
 }
