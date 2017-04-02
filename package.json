@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@glimmer/application": "^0.4.0",
-    "@glimmer/application-pipeline": "^0.5.2",
+    "@glimmer/application-pipeline": "erkarl/glimmer-application-pipeline",
     "@glimmer/component": "^0.3.8",
     "@glimmer/resolver": "^0.3.0",
     "ember-cli": "2.12.1",
