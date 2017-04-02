@@ -1,0 +1,12 @@
+{
+  "short_name": "Tomster",
+  "name": "Tomster Summoner",
+  "icons": [
+    {
+      "src": "tomster-launcher-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
